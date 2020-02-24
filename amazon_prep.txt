@@ -173,3 +173,9 @@ Coding and Troubleshooting.
 find . -name \*.cpp -exec grep -q "debug" '{}' \; -print
 
 What data structure is used for depth first traversal of a graph?
+---------------------------
+Useful links
+
+https://www.tutorialspoint.com/developers_best_practices/stress_management.htm
+https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_interview_questions.htm
+https://www.geeksforgeeks.org/python-find-live-running-status-pnr-of-any-train-using-railway-api/
