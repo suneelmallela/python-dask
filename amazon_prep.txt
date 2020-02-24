@@ -1,0 +1,175 @@
+- Tell me about your self?
+		- Where would you like for me to start?
+
+- Describe tcp/ip connection process?
+		Application Layer	-	http, smtp, ftp, ssh, snmp
+		Transport Layer		-	tcp, udp - ping, traceroute
+		Network Layer		-	icmp
+		Physical Layer		-	arp
+
+Describe HTTPS certificate trust and SSL encryption?
+How do you know it's time to make a change on a team? Personnel-wise, technical?
+		-
+			
+		
+Write me a python function that inputs a string and a list, then uses the list values to split the string into another list.  
+
+
+How do you handle a large task and make sure it is completed on time?  
+		How do you handle a large task and make sure it is  completed on time?
+Name a project/accomplishment that you are proud of.  
+		Told the interviewer that I'm going to use the STAR method and explained in detail what I did with a long story.
+A design question for a tool that can collect logs from all servers in a region. Also, if an instance suddenly went missing, how do you go about figuring out the issue?  
+Programming question - Given an array of arrays, flatten into a single array. Ex: [[1,2,3,4], [5,6],[7]]. Output [1,2,3,4,5,6,7]. Once done, increased complexity to nested arrays within each array.  
+
+
+Q: Given a log with specified format, ask you to write a script to find the ip which accessed accumulatively biggest size
+Q: Some basic tools in Linux you used?  
+
+Networking and OS questions  
+
+14 amazon principles, Systems design, algorithms  
+
+Basic Linux internals, algorithmic and TCP/IP related questions, e.g. How TraceRoute works?  
+
+hashmap, arrays, tcp-ip  
+
+Design of Redbus payments system.  
+
+What did I implement in my last position.  
+
+
+Design a geo-redundant web app with initial capacity to server atlease x million requests per day and then scale to y TPS. Explain network diagram and gtm, ltm, dns, nat,pat, session persistence role in the design.  
+Best way to run a command/script on thousand servers under 10 secs without using any tools like puppet, chef etc.  
+		Two commons ways this can be done using PowerShell. A for each loop against a Get child item variable containing a list of servers. Or PS remoting cmdlets.
+Design and explain step by step single-sign on (SAML) solution with app server like weblogic using any identity provider.  
+
+Have you ever worked on large scale IT projects and what did it entail?  
+
+Given a Oracle database with several tables, can you build me a query to find a record that looks like...  
+		Depending on what’s required. A basic select, from, where statement should suffice. Be sure to mention the necessary joins if they ask about pulling data from other tables. Inner join returns data on a single column if both values are identical. Out join returns data of both tables where column values do not match. Left join adds table 2 on the RIGHT side of the query. Right join adds table 2 on the LEFT side of the column.
+
+What is the difference between a ICMP or TCP TTL and a DNS TTL  
+
+Some went very deep into the Linux internals but nothing unreasonable (fork, execv, tlb, etc). Other questions were related to TCP/UDP/DHCP but quite trivial.
+
+The coding challenge was about implementing a hash using C++ templates and additional things were added to the problem as I solved it. It truly seems now to me the interviewer was trying to fail me or set the bar at an unreasonable level (for the position).  
+
+What is the boot order of Linux
+What means PTR in DNS
+How would you find a large file in Linux
+How would you trace which service or user opened a specific port  
+
+Most efficient algorithm for sorting infinitely long array  
+
+20 questions you'd like to ask your interviewers.  
+---------------------------------------------
+Data Structures:
+
+Derived Ddata Types:
+	Array
+	List - Linked List
+	Stack
+	Queue
+	Graph
+
+Operations:
+	Traversing
+	Searching
+	Insertion
+	Deletion
+	Sorting
+	Merging
+
+Arrays:
+	Operations:
+		Traverse - print all the array elements one by one.
+		Insertion - Adds an element at the given index.
+		Deletion - Deletes an element at the given index.
+		Search - Searches an element using the given index or by the value.
+		Update - Updates an element at the given index.
+Linked Lists:
+	Simple Linked List - Item navigation is forward only.
+		Link - Each link of a linked list can store a data called an element.
+		Next - Each link of a linked list contains a link to the next link called Next.
+		LinkedList - A Linked List contains the connection link to the first link called First.
+			Operations:
+				Insertion - Adds an element at the beginning of the list.
+				Deletion - Deletes an element at the beginning of the list.
+				Display - Displays the complete list.
+				Search - Searches an element using the given key.
+				Delete - Deletes an element using the given key.
+	Doubly Linked List - Items can be navigated forward and backward.
+		Link - Each link of a linked list can store a data called an element.
+		Next - Each link of a linked list contains a link to the next link called Next.
+		Prev - Each link of a linked list contains a link to the previous link called Prev.
+		LinkedList - A Linked List contains the connection link to the first link called First and to the last link called Last.
+			Operations:
+				Insertion - Adds an element at the beginning of the list.
+				Deletion - Deletes an element at the beginning of the list.
+				Insert Last - Adds an element at the end of the list.
+				Delete Last - Deletes an element from the end of the list.
+				Insert After - Adds an element after an item of the list.
+				Delete - Deletes an element from the list using the key.
+				Display forward - Displays the complete list in a forward manner.
+				Display backward - Displays the complete list in a backward manner.
+	Circular Linked List - Last item contains link of the first element as next and the first element has a link to the last element as previous.
+	
+Stack:
+	Operations:
+		push() - Pushing (storing) an element on the stack.
+		pop() - Removing (accessing) an element from the stack.
+		peek() - get the top data element of the stack, without removing it.
+		isFull() - check if stack is full.
+		isEmpty() - check if stack is empty.
+		
+Queue:
+	Opeations:
+		enqueue() - add (store) an item to the queue.
+		dequeue() - remove (access) an item from the queue.
+		peek() - Gets the element at the front of the queue without removing it.
+		isfull() - Checks if the queue is full.
+		isempty() - Checks if the queue is empty.
+		
+-----------------------
+Linear Search
+Binary Search
+
+Interpolation Search:
+
+Hash Table:
+
+------------------------
+Sorting Techniques:
+	In-place Sorting and Not-in-place Sorting
+	Stable and Not Stable Sorting
+	daptive and Non-Adaptive Sorting Algorithm
+	
+	Bubble Sort:
+	Insertion Sort:
+	Selection Sort:
+	Merge Sort:
+	Shell Sort:
+	Quick Sort:
+--------------------------
+Graph:
+	Operations:
+		Add Vertex - Adds a vertex to the graph.
+		Add Edge - Adds an edge between the two vertices of the graph.
+		Display Vertex - Displays a vertex of the graph.
+	Depth First Traversal
+	Breadth First Traversal
+---------------------------
+Tree:
+	Operations:
+		In-order Traversal
+		Pre-order Traversal
+		Post-order Traversal
+		
+	Binary Search Tree
+-------------
+Coding and Troubleshooting.
+
+find . -name \*.cpp -exec grep -q "debug" '{}' \; -print
+
+What data structure is used for depth first traversal of a graph?
